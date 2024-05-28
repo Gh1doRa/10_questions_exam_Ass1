@@ -121,8 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
             correctAnswer: "c",
             score: 5
         },
-        // Add more questions here
-        // Total 20 questions
+       
     ];
 
     function buildQuiz() {
