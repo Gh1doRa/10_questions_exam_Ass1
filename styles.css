@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#quiz-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+}
+
+.question {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px;
+    background: #e9ecef;
+    border-radius: 5px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
